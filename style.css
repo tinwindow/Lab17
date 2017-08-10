@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+  /*background-color: #A5F4E8;
+  /*font-family: 'Roboto Mono', monospace;*/
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  overflow: auto;
+  animation: fadein 1.1s;
+  font-size: 1.5em;
+  letter-spacing: 2.5px;
+  /*background: rgb(26, 188, 156);*/
+	background: linear-gradient(90deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.7; }
+}
+
+h1 {
+  color: #674FBD;
+  text-align: center;
+  overflow: auto;
+  width: 75%;
+  font-style: italic;
+  margin-left: 150px;
+  margin-right: 150px;
+  /*background-color: #68E8DD;
+  border: 0.5px solid cyan;*/
+  border-radius: 6px;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 4px #D9A7F6;
+}
+
+div {
+  color: #E51ED6;
+  font-weight: bolder;
+  overflow: auto;
+  margin: left 50%;
+}
+
+img {
+  width: 350px;
+  height: 225px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.ctrl {
+  text-align: center;
+}
+
+a {
+  color: #6F1BF0;
+}
+
+a:visited {
+  color: #14F85D
+  text-transform:
+}
